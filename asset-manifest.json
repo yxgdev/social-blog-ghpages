@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/social-blog-ghpages/static/css/main.59a61ebe.css",
+    "main.js": "/social-blog-ghpages/static/js/main.c81e9cac.js",
+    "index.html": "/social-blog-ghpages/index.html",
+    "static/media/book-open.svg": "/social-blog-ghpages/static/media/book-open.8b86cd9311bbcade0a076dba053edb16.svg",
+    "main.59a61ebe.css.map": "/social-blog-ghpages/static/css/main.59a61ebe.css.map",
+    "main.c81e9cac.js.map": "/social-blog-ghpages/static/js/main.c81e9cac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59a61ebe.css",
+    "static/js/main.c81e9cac.js"
+  ]
+}
