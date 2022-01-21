@@ -44,11 +44,11 @@ export const signIn = (formData, navigate) => async (dispatch) => {
   const result = await api.signIn(formData);
 
   dispatch({ type: SIGN_IN, payload: result });
-  navigate("/");
+  navigate("/social-blog-ghpages/");
 };
 
 export const signUp = (formData, navigate) => async (dispatch) => {
   const result = await api.signUp(formData);
   dispatch({ type: SIGN_UP, payload: result });
-  navigate("/");
+  navigate("/social-blog-ghpages/");
 };

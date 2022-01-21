@@ -26,7 +26,7 @@ const AuthPrompt = () => {
               </Typography>
             </Grid>
             <Grid item>
-              <Link className={classes.link} to="/auth">
+              <Link className={classes.link} to="/social-blog-ghpages/auth">
                 <Button
                   className={classes.button}
                   onClick={handleSignOut}
@@ -48,7 +48,7 @@ const AuthPrompt = () => {
               </Typography>
             </Grid>
             <Grid item>
-              <Link className={classes.link} to="/auth">
+              <Link className={classes.link} to="/social-blog-ghpages/auth">
                 <Button variant="contained" color="secondary">
                   SIGN IN
                 </Button>

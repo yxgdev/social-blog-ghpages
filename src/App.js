@@ -14,9 +14,12 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/post/:postId" element={<BlogPostSingleFull />}></Route>
-        <Route path="/auth" element={<AuthForm />}></Route>
+        <Route path="/social-blog-ghpages/" element={<Home />}></Route>
+        <Route
+          path="/social-blog-ghpages/post/:postId"
+          element={<BlogPostSingleFull />}
+        ></Route>
+        <Route path="/social-blog-ghpages/auth" element={<AuthForm />}></Route>
       </Routes>
     </BrowserRouter>
   );

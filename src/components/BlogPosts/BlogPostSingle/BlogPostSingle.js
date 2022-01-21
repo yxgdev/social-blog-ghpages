@@ -34,7 +34,10 @@ const BlogPostSingle = ({ post, handleActionArea }) => {
           onClick={() => handleActionArea(post._id)}
           className={classes.actionArea}
         >
-          <Link className={classes.link} to={`/post/${post._id}`}>
+          <Link
+            className={classes.link}
+            to={`/social-blog-ghpages/post/${post._id}`}
+          >
             <CardContent className={classes.cardContent}>
               <CardMedia
                 className={classes.media}

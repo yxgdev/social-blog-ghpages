@@ -25,7 +25,7 @@ const AuthForm = () => {
     dispatch({ type: AUTH, payload: { result, token } });
 
     // redirect
-    navigate("/");
+    navigate("/social-blog-ghpages/");
   };
 
   const [formData, setFormData] = useState({
@@ -55,7 +55,7 @@ const AuthForm = () => {
   const user = JSON.parse(localStorage.getItem("profile"));
 
   useEffect(() => {
-    if (user) navigate("/");
+    if (user) navigate("/social-blog-ghpages/");
   }, []);
 
   return (
